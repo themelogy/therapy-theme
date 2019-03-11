@@ -59,10 +59,10 @@
 
 @push('js-stack')
     {!! Asset::setDomain('//') !!}
-    {!! Asset::add('themes/doctor/vendor/fonticonpicker/jquery.fonticonpicker.min.js') !!}
-    {!! Asset::add('themes/doctor/vendor/fonticonpicker/css/jquery.fonticonpicker.min.css') !!}
-    {!! Asset::add('themes/doctor/vendor/fonticonpicker/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.css') !!}
-    {!! Asset::add('themes/doctor/fonts/iconmind/iconmind.css') !!}
+    {!! Asset::add('themes/therapy/vendor/fonticonpicker/jquery.fonticonpicker.min.js') !!}
+    {!! Asset::add('themes/therapy/vendor/fonticonpicker/css/jquery.fonticonpicker.min.css') !!}
+    {!! Asset::add('themes/therapy/vendor/fonticonpicker/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.css') !!}
+    {!! Asset::add('themes/therapy/fonts/iconmind/iconmind.css') !!}
     {!! Asset::css() !!}
     {!! Asset::js() !!}
     <script>

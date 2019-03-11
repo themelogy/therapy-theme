@@ -11,7 +11,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h2 class="fs-sm-15 text-themecolor text-bold">{{ setting('theme::company-name') }}</h2>
-                            @location('dr-eren-cetin-klinigi', 'footer')
+                            @location('lokasyon', 'footer')
                         </div>
                         <div class="col-md-6">
                             @include('contact::form')

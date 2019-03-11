@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <!-- Column -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <a href="{{ url('/') }}"><img src="{{ Theme::url('images/logo/logo.svg') }}" height="35" alt="{{ setting('theme::company-name') }}" /></a>
                     <p class="m-t-20">
                         @location('lokasyon', 'footer')
